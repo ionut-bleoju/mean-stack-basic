@@ -1,1 +1,7 @@
-<mat-toolbar color="primary">MyToolbar</mat-toolbar>
+<mat-toolbar color="primary">
+  <span>Home</span>
+  <ul>
+    <li><a mat-button routerLink="/posts/list" routerLinkActive="mat-accent">List</a></li>
+    <li><a mat-button routerLink="/posts/create" routerLinkActive="mat-accent">Create</a></li>
+  </ul>
+</mat-toolbar>

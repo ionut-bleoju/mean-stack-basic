@@ -1,0 +1,14 @@
+mat-toolbar {
+  justify-content: space-between;
+}
+
+ul {
+  list-style: none;
+
+  li {
+    display: inline;
+    padding-left: 10px;
+    outline-style:none;
+    cursor: pointer;
+  }
+}

@@ -4,9 +4,8 @@ import { PostsComponent } from './posts.component';
 import { PostCreateComponent } from './post-create/post-create.component';
 import { PostsRoutingModule } from './posts-routing.module';
 import { FormsModule } from '@angular/forms';
-import { MatInputModule, MatCardModule, MatButtonModule, MatExpansionModule } from '@angular/material';
+import { MatInputModule, MatCardModule, MatButtonModule, MatExpansionModule , MatProgressSpinnerModule } from '@angular/material';
 import { PostListComponent } from './post-list/post-list.component';
-import { PostsService } from 'src/app/shared/posts.service';
 
 @NgModule({
   declarations: [PostsComponent, PostCreateComponent, PostListComponent],
@@ -18,6 +17,7 @@ import { PostsService } from 'src/app/shared/posts.service';
     MatCardModule,
     MatButtonModule,
     MatExpansionModule,
+    MatProgressSpinnerModule
   ],
   providers: []
 })
