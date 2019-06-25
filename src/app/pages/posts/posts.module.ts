@@ -3,8 +3,8 @@ import { CommonModule } from '@angular/common';
 import { PostsComponent } from './posts.component';
 import { PostCreateComponent } from './post-create/post-create.component';
 import { PostsRoutingModule } from './posts-routing.module';
-import { FormsModule } from '@angular/forms';
-import { MatInputModule, MatCardModule, MatButtonModule, MatExpansionModule , MatProgressSpinnerModule } from '@angular/material';
+import { ReactiveFormsModule } from '@angular/forms';
+import { MatInputModule, MatCardModule, MatButtonModule, MatExpansionModule, MatProgressSpinnerModule } from '@angular/material';
 import { PostListComponent } from './post-list/post-list.component';
 
 @NgModule({
@@ -12,12 +12,12 @@ import { PostListComponent } from './post-list/post-list.component';
   imports: [
     CommonModule,
     PostsRoutingModule,
-    FormsModule,
     MatInputModule,
     MatCardModule,
     MatButtonModule,
     MatExpansionModule,
-    MatProgressSpinnerModule
+    MatProgressSpinnerModule,
+    ReactiveFormsModule
   ],
   providers: []
 })

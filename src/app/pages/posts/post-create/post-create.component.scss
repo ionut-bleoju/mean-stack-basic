@@ -7,6 +7,17 @@ textarea {
   resize: none;
 }
 
-mat-spinner{
+mat-spinner {
   margin: auto;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.image-preview {
+  width: 5rem;
+  img{
+    max-width: 100%;
+  }
 }
